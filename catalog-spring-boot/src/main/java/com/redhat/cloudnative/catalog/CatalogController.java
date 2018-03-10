@@ -20,7 +20,7 @@ public class CatalogController {
     private ProductRepository repository;
 
 	@Autowired
-    private StoreConfig config;
+    private StoreConfiguration config;
 
     @ResponseBody
     @GetMapping(path="/products", produces = MediaType.APPLICATION_JSON_VALUE)
